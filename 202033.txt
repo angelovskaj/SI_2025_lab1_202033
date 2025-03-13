@@ -1,0 +1,65 @@
+
+# 4.  Креирање на локален репозиториум со исто име како оддалечениот  
+
+	mkdir SI_2025_lab1_202033  # Креира нов директориум наречен "SI_2025_lab1_202033"  
+	cd SI_2025_lab1_202033  # Влегува во новокреираниот директориум  
+	git init  # Иницијализира празен Git репозиториум во тековниот директориум  
+
+
+# 5.  Поврзување на локалниот репозиториум со оддалечениот  
+
+	git remote add origin https://github.com/angelovskaj/SI_2025_lab1_202033.git   # Оваа команда додава(remote) 	репозиториум, кој покажува на дадениот GitHub линк  
+
+
+# 6.  Додавање README.md датотека
+
+ 	echo "Јана Ангеловска 202033" > README.md 	# Креира нова README.md датотека со информации
+ 	git add README.md	# Ја додава README.md датотеката во staging за следниот commit  
+ 	git commit -m "Initial commit"	# Ги зачувува промените во локалниот репозиториум со порака „Initial commit“  
+		 
+
+
+
+# 7.  Додавање на SI2025Lab1Main.java со дадениот код
+
+	git add SI2025Lab1Main.java	# Ја додава SI2025Lab1Main.java во staging 
+	git commit -m "Add starter code"	# Ги зачувува промените во локалниот репозиториум со порака „Add          	starter code“  
+
+
+
+# 8.  Синхронизираја на гранката master со оддалечениот репозиториум
+
+	git pull origin master     # Превзема најнови промени од оддалечениот репозиториум (ако има)  
+	git push origin master	   # Ги испраќа локалните промени во оддалечениот репозиториум на GitHub  
+
+	
+# 14. Префрлете се на гранката за првиот issue
+
+	git checkout 1-remove-a-task-by-name   # Оваа команда префрлува на гранката `1-remove-a-task-by-name`
+
+
+
+# 16. Commit на имплементираната функција
+	
+	git add SI2025Lab1Main.java	# Ја додава SI2025Lab1Main.java во staging 
+	git commit -m "Implement removeTask method"	# Ги зачувува промените во локалниот репозиториум
+
+
+# 17. Синхронизaција na локалната гранката со гранката на оддалечениот репозиториум
+
+	git pull origin 1-remove-a-task-by-name	     # Преземање и спојување на најновите промени од        		оддалечената гранка во локалната  
+
+	git push origin 1-remove-a-task-by-name      # Испраќање на локалните промени кон оддалечениот репозиториум  
+
+
+
+# 22. Спојување на преостанатата трета гранка кон гранката master локално со git команди
+
+ 	git checkout master 	# Префрлување на master гранката 
+	git merge 3-list-tasks-sorted-by-name 	# Спојување на гранката '3-list-tasks-sorted-by-name' со master  
+	git pull origin master      # Преземање на најновите промени од оддалечената master гранка  
+	git push origin master 	    # Испраќање на локалните промени кон оддалечениот репозиториум         
+
+
+
+

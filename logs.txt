@@ -1,0 +1,16 @@
+*   238515b Merge branch '3-list-tasks-sorted-by-name'
+|\  
+| * 262a766 Implement sortTasksByName method
+* | fc060cf Implement sortTasksByName method
+* |   7652055 Merge pull request #11 from angelovskaj/2-find-all-completed-task
+|\ \  
+| * | 1099ed3 Implement getCompletedTasks  method
+| |/  
+* |   2613a62 Merge pull request #10 from angelovskaj/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * d82e9ab Implement removeTask method
+|/  
+* 22f58b7 Add starter code
+* 80683a3 Initial commit
